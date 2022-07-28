@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+}
+
+/******************* Nav Section **********************/
+
+.navSection {
+    background-color: #758283;
+    padding: 30px 100px;
+}
+
+.navTop {
+    display: flex;
+    align-items: center;
+    gap: 400px;
+}
+
+.navSection .logo {
+    width: 120px;
+}
+
+.navRight {
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.navRight a {
+    color: #ffffff;
+}
+
+.navbtn {
+    background-color: transparent;
+    color: #ffffff;
+    padding: 10px 40px;
+    border: 1px solid #adb2b2;
+}
+
+.navbottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 50px;
+}
+
+.navImg {
+    width: 25vw;
+    border-radius: 5px;
+}
+
+.navText {
+    width: 40vw;
+    color: #ffffff;
+}
+
+.navText > h1 {
+    font-size: 72px;
+    font-weight: 600;
+    line-height: 80px;
+}
+
+.navText > p {
+    width: 80%;
+    margin: 40px 0;
+}
+
+.emailBox {
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    background-color: #ffffff;
+    padding: 8px 8px 8px 15px;
+}
+
+.emailBox > input {
+    border: none;
+    width: 60%;
+    padding-left: 8px;
+}
+
+.emailBox > input::placeholder {
+    color: #9ca0a0;
+    font-size: 14px;
+    letter-spacing: .5px;
+}
+
+.emailBtn {
+    background-color: #89c0a3;
+    border: none;
+    color: #ffffff;
+    padding: 15px 50px;
+    font-size: 16px;
+}
+
+/******************* Hero Section **********************/
