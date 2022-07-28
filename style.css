@@ -98,3 +98,27 @@
 }
 
 /******************* Hero Section **********************/
+
+.heroSection {
+    padding: 80px 150px;
+}
+
+.heroSection > h3 {
+    text-align: center;
+    font-size: 38px;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+    text-align: end;
+    padding: 40px 0 70px 0;
+}
+
+.stats h2 {
+    font-size: 44px;
+}
+
+.heroSection img {
+    width: 100%;
+}
