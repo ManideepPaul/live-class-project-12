@@ -95,6 +95,7 @@
     color: #ffffff;
     padding: 15px 50px;
     font-size: 16px;
+    font-weight: 500;
 }
 
 /******************* Hero Section **********************/
@@ -122,3 +123,115 @@
 .heroSection img {
     width: 100%;
 }
+
+/******************* Card Section **********************/
+
+.cardSection {
+    padding: 50px 150px;
+}
+
+.cardSection h3 {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 60px;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    margin: 60px 0;
+}
+
+.cardText {
+    margin-right: 40px;
+} 
+
+.cardText > h4 {
+    font-size: 34px;
+}
+
+.cardText > p {
+    color: #758283;
+    margin: 25px 0;
+    width: 70%;
+    line-height: 30px;
+    font-size: 17px;
+}
+
+.middle {
+    margin-right: 0;
+    margin-left: 60px;
+}
+
+.card > img {
+    width: 45%;
+}
+
+.cardBtn {
+    background-color: #89c0a3;
+    border: none;
+    color: #ffffff;
+    padding: 15px 50px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/******************* Team Section **********************/
+
+.teamsSection {
+    padding: 50px 150px;
+}
+
+.teamsSection > .text {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    margin-bottom: 50px;
+}
+
+.teamsSection > .text > h3 {
+    font-size: 40px;
+}
+
+.teamsSection > .text > p {
+    font-size: 18px;
+    color: #758283;
+    line-height: 30px;
+}
+
+.members {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    width: 100%;
+}
+
+.member > img {
+    width: 350px;
+    height: 500px;
+}
+
+.member h5 {
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+.member p {
+    color: #758283;
+    font-size: 15px;
+}
+
+.teamBtn {
+    margin: auto;
+    display: block;
+    margin: 60px auto 40px auto;
+    background-color: #89c0a3;
+    border: none;
+    color: #ffffff;
+    padding: 15px 50px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/******************* Footer Section **********************/
