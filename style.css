@@ -235,3 +235,45 @@
 }
 
 /******************* Footer Section **********************/
+
+footer {
+    padding: 50px 150px;
+    background-color: #1f1f1f;
+    color: #ffffff;
+}
+
+.footerTop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #4c4f4f;
+    padding-bottom: 50px;
+}
+
+.footerTop > img{
+    width: 120px;
+}
+
+.social > img {
+    padding: 15px;
+    background-color: #2e3030;
+    border-radius: 30px;
+    margin-left: 10px;
+}
+
+.footerLinks {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.fLink > h5 {
+    font-size: 17px;
+}
+
+.fLink > p{
+    margin-top: 20px;
+    font-size: 14px;
+    color: #9ca0a0;
+}
