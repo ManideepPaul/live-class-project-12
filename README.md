@@ -3,9 +3,9 @@
 <br>
 
 
-I was strugling to align `left-section` and `right-section`. After learning more about Flex-Box finally able to align them.
+I was strugling to design the email input part. After doing some googling finally able to make it.
 
-- It took me around **2 hour 30 min** max to complete the project.
+- It took me **3 hour** max to complete the project.
 
 <br>
 
