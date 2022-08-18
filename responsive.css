@@ -1,0 +1,15 @@
+@media screen and (max-width: 1300px) {
+    /* Navbar */
+
+    .navSection .logo {
+        width: 100px;
+    }
+
+    .navRight {
+        display: none;
+    }
+
+    .menu {
+        display: block;
+    }
+}
