@@ -86,6 +86,7 @@
     border: none;
     width: 60%;
     padding-left: 8px;
+    outline: none;
 }
 
 .emailBox > input::placeholder {
@@ -185,6 +186,8 @@
 
 .teamsSection {
     padding: 50px 150px;
+    display: flex;
+    flex-direction: column;
 }
 
 .teamsSection > .text {
@@ -208,8 +211,10 @@
 .members {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     gap: 10px;
     width: 100%;
+    flex-wrap: wrap;
 }
 
 .member > img {
